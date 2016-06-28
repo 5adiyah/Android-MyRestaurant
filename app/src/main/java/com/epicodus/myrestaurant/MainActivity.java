@@ -7,10 +7,12 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     private Button mFindRestaurantsButton;
     private EditText mLocationEditText;
+    private TextView mAppNameTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,5 +30,7 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(intent);
                 }
             });
+
+        mAppNameTextView = (TextView) findViewById(R.id.appNameTextView);
     }
 }
