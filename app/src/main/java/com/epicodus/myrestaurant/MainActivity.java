@@ -1,6 +1,7 @@
 package com.epicodus.myrestaurant;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -32,5 +33,7 @@ public class MainActivity extends AppCompatActivity {
             });
 
         mAppNameTextView = (TextView) findViewById(R.id.appNameTextView);
+        Typeface restaurantFont = Typeface.createFromAsset(getAssets(), "fonts/AmaticSC-Regular.ttf");
+        mAppNameTextView.setTypeface(restaurantFont);
     }
 }
