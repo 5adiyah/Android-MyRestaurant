@@ -20,7 +20,7 @@ import static junit.framework.Assert.assertNotSame;
 @Config(constants = BuildConfig.class, sdk = Build.VERSION_CODES.LOLLIPOP)
 @RunWith(RobolectricGradleTestRunner.class)
 
-public class RestaurantsActivityTest {
+public class RestaurantListActivityTest {
     private RestaurantsActivity activity;
     private ListView mReataurantListView;
 

@@ -19,7 +19,7 @@ import static org.hamcrest.core.IsNot.not;
 /**
  * Created by Guest on 6/28/16.
  */
-public class RestaurantsActivityInstrumentationTest {
+public class RestaurantListActivityInstrumentationTest {
     @Rule
     public ActivityTestRule<RestaurantsActivity> activityTestRule =
             new ActivityTestRule<>(RestaurantsActivity.class);
